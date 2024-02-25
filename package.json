@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "singleton": "nodemon PadroesCriacionais/singleton/index.js"
+    "singleton": "nodemon PadroesCriacionais/singleton/index.js",
+    "strategyclass": "nodemon PadroesComportamentais/strategy/classe/index.js",
+    "strategyfunc": "nodemon PadroesComportamentais/strategy/function/index.js",
+    "iteratorclass": "nodemon PadroesComportamentais/iterator/classe/index.js",
+    "iteratorfunc": "nodemon PadroesComportamentais/iterator/function/index.js"
   },
   "keywords": [],
   "author": "",

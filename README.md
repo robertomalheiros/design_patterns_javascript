@@ -93,6 +93,8 @@ O padrão Proxy fornece um substituto ou espaço reservado para outro objeto par
 
 O padrão Chain of Responsibility evita o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar essa solicitação. Encadeia os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate.
 
+Analogia - Sistema de triagem, onde uma tarefa é passada de uma estação para a próxima até que seja tratada.
+
 ### Padrão Command
 
 O padrão Command encapsula uma solicitação como um objeto, permitindo que você parametrize clientes com filas, solicitações e operações. Ele também permite suportar operações que podem ser desfeitas.
